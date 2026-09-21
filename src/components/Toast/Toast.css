@@ -1,0 +1,5 @@
+.toast{
+  position:fixed; right:16px; top:86px; background:#0f172a; color:#fff; padding:10px 14px; border-radius:10px;
+  border:1px solid #111827; display:block; box-shadow: var(--elev-3); z-index:100; animation:fade .18s;
+}
+@keyframes fade{ from{opacity:.6; transform:translateY(-6px)} to{opacity:1; transform:none} }

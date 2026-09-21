@@ -1,0 +1,6 @@
+#apMap { width: 100%; height: 540px; border-radius: 12px; border:1px solid var(--border); box-shadow: var(--elev-1); }
+@media (max-width:720px){ #apMap { height: 420px; } }
+.legend{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:8px }
+.legend .swatch{ width:14px; height:14px; border-radius:3px; border:1px solid var(--border-strong) }
+.swatch-active{ background:var(--badge-success-bg); border-color:var(--badge-success-b) }
+.swatch-paused{ background:var(--badge-danger-bg); border-color:var(--badge-danger-b) }

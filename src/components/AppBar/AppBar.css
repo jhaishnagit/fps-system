@@ -1,0 +1,23 @@
+.appbar{
+  grid-area:header; position:sticky; top:0; z-index:30;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:10px 16px; color:var(--text-inverse);
+  background: var(--bg-header);
+  box-shadow: var(--elev-2);
+}
+.brand{ display:flex; align-items:center; gap:12px }
+.brand .logo{ width:42px; height:42px; border-radius:12px; display:grid; place-items:center;
+  background: rgba(255,255,255,.18); color:#fff; }
+.brand h1{ margin:0; font:700 18px var(--font-head) }
+.brand p{ margin:0; font-size:12px; opacity:.9 }
+
+.appbar-actions{ display:flex; align-items:center; gap:10px }
+.select,.btn,.btn-icon{ border:1px solid transparent; background:#ffffff; color:#0f172a; border-radius:10px;
+  padding:8px 10px; font-weight:700; cursor:pointer; box-shadow: var(--elev-1); }
+.btn-primary{ background:#fff; border-color: rgba(255,255,255,.4); color:#0f172a; }
+.btn-icon{ width:40px; height:40px; display:grid; place-items:center; padding:0 }
+.chip{ padding:8px 10px; border-radius:999px; background:rgba(255,255,255,.18); color:#fff; font-weight:800;
+  border:1px solid rgba(255,255,255,.28); }
+.lang-switch{ display:flex; background:#fff; border:1px solid var(--border); border-radius:10px; overflow:hidden }
+.lang-switch button{ background:transparent; border:0; padding:8px 10px; font-weight:800; cursor:pointer }
+.lang-switch button.active{ background:var(--primary-soft); color:var(--primary-700) }

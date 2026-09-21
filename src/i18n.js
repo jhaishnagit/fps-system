@@ -1,0 +1,28 @@
+export const i18nData = {
+  en: {
+    tabMaster: "Master Configuration",
+    tabUsers: "User Management",
+    tabContent: "Content Management",
+    tabService: "Service Control",
+    tabAudit: "Audit Logs",
+    deptTitle: "Civil Supplies Department",
+    adminPanel: "Administrative Panel — Andhra Pradesh",
+    totalFps: "Total FPS Shops",
+    activeUsers: "Active Users",
+    serviceRegions: "Service Regions",
+    pendingActions: "Pending Actions",
+  },
+  te: {
+    tabMaster: "మాస్టర్ సెట్టింగ్స్",
+    tabUsers: "యూజర్ మేనేజ్‌మెంట్",
+    tabContent: "కంటెంట్ నిర్వహణ",
+    tabService: "సర్వీస్ కంట్రోల్",
+    tabAudit: "ఆడిట్ లాగ్స్",
+    deptTitle: "సివిల్ సప్లైస్ డిపార్ట్‌మెంట్",
+    adminPanel: "అడ్మినిస్ట్రేటివ్ ప్యానెల్ — ఆంధ్రప్రదేశ్",
+    totalFps: "మొత్తం FPS షాప్స్",
+    activeUsers: "సక్రియ యూజర్లు",
+    serviceRegions: "సర్వీస్ రీజియన్స్",
+    pendingActions: "పెండింగ్ యాక్షన్స్",
+  },
+};

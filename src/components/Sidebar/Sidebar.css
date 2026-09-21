@@ -1,0 +1,24 @@
+.sidebar{
+  grid-area:sidebar; background: var(--bg-sidebar); border-right:1px solid var(--sidebar-border);
+  position:sticky; top:0; height:100vh; display:flex; flex-direction:column; box-shadow: var(--elev-1);
+}
+.sidebar-header{
+  height:64px; display:flex; align-items:center; justify-content:space-between; padding:0 12px;
+  border-bottom:1px solid var(--sidebar-border); color: var(--text-700);
+}
+.collapse-btn{ background:#fff; border:1px solid var(--border); border-radius:10px; width:40px; height:40px;
+  display:grid; place-items:center; cursor:pointer; }
+.nav{ padding:12px; display:flex; flex-direction:column; gap:8px; }
+.nav button{
+  display:flex; align-items:center; gap:10px; padding:10px 12px; border:1px solid var(--border); background:#fff; color:var(--text-700);
+  border-radius:10px; cursor:pointer; box-shadow: var(--elev-1); font-weight:800;
+}
+.nav button .material-symbols-rounded{ font-size:20px; color:var(--text-500) }
+.nav button:hover{ border-color: var(--border-strong) }
+.nav button.active{ border-color: transparent; background: var(--primary); color:#fff; box-shadow: var(--elev-2); }
+.nav button.active .material-symbols-rounded{ color:#fff }
+
+html[data-collapsed="true"] .sidebar{ width:86px }
+html[data-collapsed="false"] .sidebar{ width:260px }
+html[data-collapsed="true"] .nav button span.label{ display:none }
+html[data-collapsed="true"] .sidebar .title{ display:none }
